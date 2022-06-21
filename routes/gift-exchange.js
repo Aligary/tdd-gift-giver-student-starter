@@ -1,8 +1,6 @@
 const express = require("express")
 const router = express.Router()
 const GiftExchange = require("../models/gift-exchange")
-let names = ["me", "you", "them", "us", "her", "him", "they", "y'all"]
-
 
 router.post("/pairs", async(req, res, next) => {
     try{
